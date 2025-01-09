@@ -5,7 +5,7 @@ function displayTime() {
     var seconds = currentTime.getSeconds();
 
     var clockDiv = document.getElementById('clock');
-    //clockDiv.innerText = hours + ":" + minutes + ":" + seconds;
+    clockDiv.innerText = hours + ":" + minutes + ":" + seconds;
     console.log( hours + ":" + minutes + ":" + seconds);
 }
 
